@@ -1,0 +1,15 @@
+{
+  "frontend/src/index.css": "Global styles for the Espirit de corps website featuring a cinematic dark-mode design system with OKLCH gold/amber accent tokens, custom Google Fonts (Playfair Display, Montserrat, Inter), scroll animations, utility classes for gold gradients, card hover effects, and custom scrollbar styling.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration adding custom font families (Playfair Display, Montserrat, Inter), gold/charcoal color palette tokens, sharp border radius, gold box shadows, and fade/slide keyframe animations for scroll entrance effects.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Reusable hook using IntersectionObserver to trigger CSS visibility class on elements as they scroll into view.",
+  "frontend/src/components/Navbar.tsx": "Sticky navigation bar with the Espirit de corps brand logo, desktop anchor links to all sections, mobile hamburger menu, and a scroll-triggered background blur/opacity effect.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with parallax background image, animated company name with shimmer text effect, stats counters, dual CTA buttons, floating feature badges, and a scroll indicator.",
+  "frontend/src/components/CompanyProfile.tsx": "\"Who We Are\" section with a two-column layout featuring agency description, service highlights checklist, platform badges, and a stats card with a brand quote.",
+  "frontend/src/components/VisionMission.tsx": "Vision and Mission section with two large cards featuring icons, decorative numbers, detailed copy, and a four-value strip (Authenticity, Innovation, Excellence, Results).",
+  "frontend/src/components/CEOSection.tsx": "CEO profile section with portrait image, decorative frame, quote card, bio paragraphs, expertise tags, and social media links — now displaying \"Saravana Kumar\" as the CEO name.",
+  "frontend/src/components/Services.tsx": "Four-service grid with animated cards for Video Reels, Poster Advertisements, Crisis Campaign Management, and Landing Page Development — each with icon, subtitle, description, feature list, and hover effects.",
+  "frontend/src/components/Portfolio.tsx": "Tabbed portfolio showcase with Video Reels (vertical thumbnails with play button overlays and view counts) and Poster Ads (grid with lightbox preview) tabs, plus a request portfolio CTA.",
+  "frontend/src/components/ContactCTA.tsx": "Contact section with updated contact details — email (saravana@espiritdecrops.com), phone (+91 7259145275 with tel: link), and location (Bangalore – All India Remote Available) — plus a validated contact form with loading state and success confirmation.",
+  "frontend/src/components/Footer.tsx": "Full footer with brand identity, social media links, navigation and services columns, a CTA column, copyright line, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Root application component that composes all page sections in order: Navbar, Hero, CompanyProfile, VisionMission, CEOSection, Services, Portfolio, ContactCTA, and Footer."
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update contact details: email, phone, and location in ContactCTA section",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update email address to 'saravana@espiritdecrops.com' in ContactCTA component",
+      "acceptanceCriteria": [
+        "The email displayed in the contact info card reads 'saravana@espiritdecrops.com'",
+        "Any mailto: link uses 'saravana@espiritdecrops.com'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactCTA.tsx",
+          "operation": "modify",
+          "description": "Update the email address displayed in the contact info card to 'saravana@espiritdecrops.com' and ensure the corresponding mailto: href uses the same address"
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Update phone number to '+91 7259145275' in ContactCTA component",
+      "acceptanceCriteria": [
+        "The phone number displayed in the contact info card reads '+91 7259145275'",
+        "Any tel: link uses '+917259145275'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactCTA.tsx",
+          "operation": "modify",
+          "description": "Update the phone number displayed in the contact info card to '+91 7259145275' and ensure the corresponding tel: href uses '+917259145275' (without spaces)"
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Update location text to 'Bangalore – All India Remote Available' in ContactCTA component",
+      "acceptanceCriteria": [
+        "The location displayed in the contact info card reads 'Bangalore – All India Remote Available'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactCTA.tsx",
+          "operation": "modify",
+          "description": "Update the location/address text displayed in the contact info card to 'Bangalore – All India Remote Available'"
+        }
+      ]
+    }
+  ]
+}

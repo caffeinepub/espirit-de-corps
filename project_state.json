@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Website for 'Espirit de corps' – a social media management agency that handles accounts for celebrities and brands. Services include video reels editing, poster advertisements, crisis campaign management, and landing page development. The site needs a company profile, vision/mission statements, CEO bio, services section, and an attractive CTA with demo videos and poster samples.",
+  "architectural_notes": [
+    "Static or lightweight website; no backend required unless contact form is added",
+    "Branding: Company name is 'Espirit de corps'; target audience includes celebrities and brands"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-landing-section-with-the-company-name-espirit-de-corps-a-bold-tagline-about-elite-social-media-management-and-a-prominent-cta-button-get-started-book-a-consultation-the-hero-should-feel-high-energy-and-premium",
+      "title": "Create a hero/landing section with the company name 'Espirit de corps', a bold tagline about elite social media management, and a prominent CTA button ('Get Started' / 'Book a Consultation'). The hero should feel high-energy and premium.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-company-profile-section-that-introduces-espirit-de-corps-as-a-full-service-social-media-management-agency-specializing-in-building-and-maintaining-social-media-accounts-for-celebrities-influencers-and-brands-offering-end-to-end-support-from-content-creation-to-virality",
+      "title": "Create a Company Profile section that introduces Espirit de corps as a full-service social media management agency specializing in building and maintaining social media accounts for celebrities, influencers, and brands – offering end-to-end support from content creation to virality.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-vision-mission-section-with-separate-clearly-labeled-subsections-vision-should-convey-aspiring-to-be-the-leading-social-media-management-agency-mission-should-describe-delivering-end-to-end-social-media-growth-content-strategy-and-brand-virality-for-clients",
+      "title": "Create a Vision & Mission section with separate, clearly labeled subsections. Vision should convey aspiring to be the leading social media management agency. Mission should describe delivering end-to-end social media growth, content strategy, and brand virality for clients.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-the-ceo-section-with-a-placeholder-ceo-name-a-short-inspirational-bio-describing-their-expertise-in-social-media-growth-and-digital-branding-and-a-profile-image-placeholder",
+      "title": "Create an 'About the CEO' section with a placeholder CEO name, a short inspirational bio describing their expertise in social media growth and digital branding, and a profile image placeholder.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-showcasing-four-service-cards-1-video-reels-editing-content-ideas-and-viral-strategy-2-poster-advertisements-high-impact-visual-ad-creatives-3-crisis-campaign-management-rapid-response-and-reputation-management-4-landing-page-development-conversion-optimized-pages-each-card-should-have-an-icon-title-and-short-description",
+      "title": "Create a Services section showcasing four service cards: (1) Video Reels – editing, content ideas, and viral strategy; (2) Poster Advertisements – high-impact visual ad creatives; (3) Crisis Campaign Management – rapid response and reputation management; (4) Landing Page Development – conversion-optimized pages. Each card should have an icon, title, and short description.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-portfolio-demo-section-with-an-attractive-layout-showing-a-3-demo-video-reel-placeholders-rendered-as-styled-video-cards-with-play-button-overlays-using-the-generated-reel-thumbnail-images-b-3-poster-advertisement-samples-using-the-generated-poster-sample-images-this-section-should-feel-like-a-creative-agency-showcase",
+      "title": "Create a Portfolio/Demo section with an attractive layout showing: (a) 3 demo video reel placeholders rendered as styled video cards with play button overlays using the generated reel thumbnail images; (b) 3 poster advertisement samples using the generated poster sample images. This section should feel like a creative agency showcase.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-bottom-cta-section-with-a-compelling-headline-e-g-ready-to-go-viral-a-subheading-and-two-buttons-contact-us-and-view-our-services-include-a-contact-form-with-fields-for-name-email-phone-and-message-and-a-submit-button",
+      "title": "Create a bottom CTA section with a compelling headline (e.g., 'Ready to Go Viral?'), a subheading, and two buttons: 'Contact Us' and 'View Our Services'. Include a contact form with fields for Name, Email, Phone, and Message, and a submit button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-bold-cinematic-dark-mode-visual-theme-throughout-the-site-using-deep-charcoal-black-backgrounds-gold-amber-accent-colors-for-highlights-and-ctas-and-clean-modern-typography-use-smooth-scroll-between-sections-subtle-entrance-animations-on-scroll-and-a-sticky-navigation-bar-with-the-company-name-and-section-links",
+      "title": "Apply a bold, cinematic dark-mode visual theme throughout the site – using deep charcoal/black backgrounds, gold/amber accent colors for highlights and CTAs, and clean modern typography. Use smooth scroll between sections, subtle entrance animations on scroll, and a sticky navigation bar with the company name and section links.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-static-images-hero-background-ceo-portrait-reel-thumbnails-poster-samples-service-icons-from-the-frontend-public-assets-generated-directory",
+      "title": "Render all generated static images (hero background, CEO portrait, reel thumbnails, poster samples, service icons) from the frontend/public/assets/generated directory.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-ceosection-component-update-the-ceo-name-displayed-in-the-h3-element-located-at-xpath-html-1-body-1-div-1-div-1-main-1-section-4-div-2-div-2-div-2-h3-1-from-the-current-placeholder-name-to-saravana-kumar",
+      "title": "In the CEOSection component, update the CEO name displayed in the h3 element (located at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/section[4]/div[2]/div[2]/div[2]/h3[1]) from the current placeholder name to 'Saravana Kumar'.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contactcta-component-update-the-email-address-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-2-div-2-div-2-to-saravana-espiritdecrops-com-also-update-any-mailto-href-associated-with-this-email-to-use-the-same-address",
+      "title": "In the ContactCTA component, update the email address displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]) to 'saravana@espiritdecrops.com'. Also update any mailto: href associated with this email to use the same address.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contactcta-component-update-the-phone-number-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-3-div-2-div-2-to-91-7259145275-also-update-any-tel-href-associated-with-this-phone-to-use-the-same-number",
+      "title": "In the ContactCTA component, update the phone number displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]) to '+91 7259145275'. Also update any tel: href associated with this phone to use the same number.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-contactcta-component-update-the-location-address-text-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-1-div-2-div-2-to-bangalore-all-india-remote-available",
+      "title": "In the ContactCTA component, update the location/address text displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]) to 'Bangalore – All India Remote Available'.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Company profile section with name 'Espirit de corps'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Vision and Mission statement sections",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "About the CEO section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Services section: Video Reels, Poster Advertisements, Crisis Campaign Management, Landing Page Development",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Attractive CTA section with demo videos and poster samples",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Update CEO name to 'Saravana Kumar' in the About the CEO section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Update contact details: email to saravana@espiritdecrops.com, phone to +91 7259145275, location to Bangalore - All India Remote Available",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Espirit de corps",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

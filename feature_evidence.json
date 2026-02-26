@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-in-the-contactcta-component-update-the-email-address-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-2-div-2-div-2-to-saravana-espiritdecrops-com-also-update-any-mailto-href-associated-with-this-email-to-use-the-same-address",
+      "featureTitle": "In the ContactCTA component, update the email address displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]) to 'saravana@espiritdecrops.com'. Also update any mailto: href associated with this email to use the same address.",
+      "files": [
+        "frontend/src/components/ContactCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-in-the-contactcta-component-update-the-phone-number-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-3-div-2-div-2-to-91-7259145275-also-update-any-tel-href-associated-with-this-phone-to-use-the-same-number",
+      "featureTitle": "In the ContactCTA component, update the phone number displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]) to '+91 7259145275'. Also update any tel: href associated with this phone to use the same number.",
+      "files": [
+        "frontend/src/components/ContactCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-in-the-contactcta-component-update-the-location-address-text-displayed-in-the-contact-info-card-xpath-html-1-body-1-div-1-div-1-main-1-section-7-div-2-div-2-div-1-div-1-div-2-div-1-div-2-div-2-to-bangalore-all-india-remote-available",
+      "featureTitle": "In the ContactCTA component, update the location/address text displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]) to 'Bangalore – All India Remote Available'.",
+      "files": [
+        "frontend/src/components/ContactCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

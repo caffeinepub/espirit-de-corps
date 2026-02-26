@@ -1,0 +1,71 @@
+{
+  "kind": "build_request",
+  "title": "Update contact details: email, phone, and location in ContactCTA section",
+  "projectName": "Espirit de Corps",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "In the ContactCTA component, update the email address displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]) to 'saravana@espiritdecrops.com'. Also update any mailto: href associated with this email to use the same address.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "email id change to this email id: saravana@espiritdecrops.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The email displayed in the contact info card reads 'saravana@espiritdecrops.com'",
+        "Any mailto: link uses 'saravana@espiritdecrops.com'"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "In the ContactCTA component, update the phone number displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]) to '+91 7259145275'. Also update any tel: href associated with this phone to use the same number.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "call us change to +91 7259145275"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The phone number displayed in the contact info card reads '+91 7259145275'",
+        "Any tel: link uses '+917259145275'"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "In the ContactCTA component, update the location/address text displayed in the contact info card (XPath: /html[1]/body[1]/div[1]/div[1]/main[1]/section[7]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]) to 'Bangalore – All India Remote Available'.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "location to Bangalore -all india remote valiable"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The location displayed in the contact info card reads 'Bangalore – All India Remote Available'"
+      ]
+    }
+  ],
+  "constraints": [
+    "Only update the three specified contact detail fields: email, phone, and location",
+    "Do not alter any other text, layout, or styling in the ContactCTA component"
+  ],
+  "nonGoals": [
+    "Adding new contact fields",
+    "Changing the contact form fields or submission logic",
+    "Modifying any other section of the website"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
